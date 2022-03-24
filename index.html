@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+</head>
+
+<body>
+    <form action="http://127.0.0.1:5500/index.html" method="get">
+
+
+        <P>
+            NAME
+            <input type="text" placeholder="Ravikant"><br>
+        </P>
+        <p>
+            E-mail id
+            <input type="email" name="email" placeholder="email" required><br>
+        </p>
+        <p>
+            password
+            <input type="password" name="password" placeholder="password" id=""><br>
+        </p>
+        <p>
+            Language<br>
+            <input type="radio" name="lang" id="lang">HTML <br> <input type="radio" name="lang" id="lang">CSS <br>
+            <input type="radio" name="lang" id="lang">JS
+
+        </p>
+        <p>
+            COURSE<br>
+            <input type="checkbox" name="check" id="check">ABCD <br>
+            <input type="checkbox" name="check" id="check">EFGH<br>
+            <input type="checkbox" name="check" id="check">IJKL<br>
+        </p>
+        Feild<br>
+         <select name="coursE" id="">
+        <option value="CSS" oninvalid="" required>CSS</option>
+        <option value="HTML" oninvalid="" required>HTML</option>
+        <option value="JS" oninvalid="" required>JS</option>
+         </select>
+        <p>
+            <textarea placeholder="Describe yourself here..."></textarea>
+        </p>
+        <input type="datetime-local" name="date and time" id=""><br><br>
+        <label for="telephone">Phone No
+            <input type="tel" name="tel" id="telephone" maxlength="10" minlength="10">
+        </label><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <a href="./table.html">click here for table</a>
+</body>
+
+</html>
